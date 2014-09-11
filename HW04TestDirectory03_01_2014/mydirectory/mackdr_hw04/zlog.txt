@@ -1,0 +1,12 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Tue Mar 18 02:20:16 2014
+TIME beginning             0.00 u         0.00 s   Res:        3516
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Main: Beginning execution
+Main: infile  'xin1.txt'
+Main: outfile 'zout.txt'
+Main: logfile 'zlog.txt'

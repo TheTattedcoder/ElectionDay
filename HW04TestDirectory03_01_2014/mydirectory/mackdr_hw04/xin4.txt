@@ -1,0 +1,8 @@
+7 4
+buell smith rosen jones
+buell smith jones rosen
+buell jones smith rosen
+jones buell smith rosen
+smith jones buell rosen
+smith rosen buell jones
+smith buell rosen jones

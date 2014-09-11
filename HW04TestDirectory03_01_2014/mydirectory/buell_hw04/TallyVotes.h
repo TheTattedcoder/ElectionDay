@@ -1,0 +1,36 @@
+#ifndef TALLYVOTES_H
+#define TALLYVOTES_H
+
+#include <map>
+#include <vector>
+
+#include "../../Utilities/Utils.h"
+#include "../../Utilities/Scanner.h"
+
+#include "Candidate.h"
+
+class TallyVotes
+{
+public:
+  TallyVotes();
+  virtual ~TallyVotes();
+
+  string getWinner();
+  void initialize(Scanner& inStream);
+  void tallyVotes(ofstream& outStream);
+  string toString() const;
+
+private:
+  int numberOfCandidates;
+  int numberOfVotes;
+  vector< vector<string> > theVotes;
+  map<string, Candidate> theCandidates;
+  vector<string> newVoteA(vector<string>(recentVotes));
+
+  string eliminateLosers();
+  string toStringCandidates() const;
+  string toStringVotes() const;
+  bool weHaveAWinner();
+};
+
+#endif // TALLYVOTES_H

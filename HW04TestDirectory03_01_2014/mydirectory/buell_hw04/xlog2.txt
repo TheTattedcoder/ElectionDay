@@ -1,0 +1,21 @@
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Fri Feb 21 15:52:35 2014
+TIME beginning             0.00 u         0.00 s   Res:      573440
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+Main: Beginning execution
+Main: infile  'xin2.txt'
+Main: outfile 'xout2.txt'
+Main: logfile 'xlog2.txt'
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Fri Feb 21 15:52:35 2014
+TIME ending                0.00 u         0.00 s   Res:      626688
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+

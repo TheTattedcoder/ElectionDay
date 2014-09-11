@@ -1,0 +1,46 @@
+Main: RAW DATA
+TallyVotes: Number of votes:    7
+TallyVotes: Number of candidates:    3
+
+TallyVotes: Vote data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: Candidate data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+Main: TALLY THE VOTES 
+TallyVotes: AFTER ROUND 0 THE RESULTS ARE 
+buell    12 isInContention=TRUE  isAWinner=FALSE
+jones    17 isInContention=TRUE  isAWinner=FALSE
+smith    13 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE DO NOT HAVE A WINNER
+
+TallyVotes: ELIMINATE LOSERS: 
+TallyVotes: ELIMINATED THIS ROUND jones    17 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: AFTER ROUND 1 THE RESULTS ARE 
+buell    10 isInContention=TRUE  isAWinner=TRUE 
+jones     0 isInContention=FALSE isAWinner=FALSE
+smith    11 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE DO NOT HAVE A WINNER
+
+TallyVotes: ELIMINATE LOSERS: 
+TallyVotes: ELIMINATED EARLIER    jones     0 isInContention=FALSE isAWinner=FALSE
+TallyVotes: ELIMINATED THIS ROUND smith    11 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: AFTER ROUND 2 THE RESULTS ARE 
+buell     7 isInContention=TRUE  isAWinner=TRUE 
+jones     0 isInContention=FALSE isAWinner=FALSE
+smith     0 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: WE HAVE A WINNER
+
+Main: THE WINNER IS:
+buell     7 isInContention=TRUE  isAWinner=TRUE 
+

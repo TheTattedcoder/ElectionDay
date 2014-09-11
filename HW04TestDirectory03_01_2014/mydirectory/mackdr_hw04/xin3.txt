@@ -1,0 +1,8 @@
+7 3
+buell smith jones
+buell smith jones
+buell jones smith
+jones buell smith
+smith jones buell
+smith buell jones
+smith buell jones

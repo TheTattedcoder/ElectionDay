@@ -1,0 +1,9 @@
+8 5
+nixon rosen buell jones smith
+nixon rosen buell smith jones
+nixon rosen buell smith jones
+nixon rosen buell smith jones
+jones smith buell rosen nixon
+jones smith buell rosen nixon
+jones jones buell rosen nixon
+smith rosen buell jones nixon

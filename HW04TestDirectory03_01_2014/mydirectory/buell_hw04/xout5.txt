@@ -1,0 +1,58 @@
+Main: RAW DATA
+TallyVotes: Number of votes:    8
+TallyVotes: Number of candidates:    5
+
+TallyVotes: Vote data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+nixon     0 isInContention=TRUE  isAWinner=FALSE
+rosen     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: Candidate data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+nixon     0 isInContention=TRUE  isAWinner=FALSE
+rosen     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+Main: TALLY THE VOTES 
+TallyVotes: AFTER ROUND 0 THE RESULTS ARE 
+buell    24 isInContention=TRUE  isAWinner=FALSE
+jones    28 isInContention=TRUE  isAWinner=FALSE
+nixon    24 isInContention=TRUE  isAWinner=FALSE
+rosen    22 isInContention=TRUE  isAWinner=FALSE
+smith    22 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE DO NOT HAVE A WINNER
+
+TallyVotes: ELIMINATE LOSERS: 
+TallyVotes: ELIMINATED THIS ROUND jones    28 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: AFTER ROUND 1 THE RESULTS ARE 
+buell    20 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=FALSE isAWinner=FALSE
+nixon    19 isInContention=TRUE  isAWinner=FALSE
+rosen    18 isInContention=TRUE  isAWinner=FALSE
+smith    19 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE DO NOT HAVE A WINNER
+
+TallyVotes: ELIMINATE LOSERS: 
+TallyVotes: ELIMINATED EARLIER    jones     0 isInContention=FALSE isAWinner=FALSE
+TallyVotes: ELIMINATED THIS ROUND buell    20 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: AFTER ROUND 2 THE RESULTS ARE 
+buell     0 isInContention=FALSE isAWinner=FALSE
+jones     0 isInContention=FALSE isAWinner=FALSE
+nixon    15 isInContention=TRUE  isAWinner=FALSE
+rosen    15 isInContention=TRUE  isAWinner=FALSE
+smith    15 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE HAVE A WINNER
+
+Main: THE WINNER IS:
+nixon    15 isInContention=TRUE  isAWinner=TRUE 
+rosen    15 isInContention=TRUE  isAWinner=TRUE 
+smith    15 isInContention=TRUE  isAWinner=TRUE 
+

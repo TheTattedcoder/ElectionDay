@@ -1,0 +1,18 @@
+#!/bin/bash
+cd testdirectory
+#
+for item in *
+do
+  echo " "
+  echo "COMPILING" $item
+  cd $item
+  rm *.o
+  rm Aprog
+  make -f ../../makefile
+  cd ..
+done
+cd ..
+#
+echo " "
+echo "COMPILING COMPLETE"
+echo " "

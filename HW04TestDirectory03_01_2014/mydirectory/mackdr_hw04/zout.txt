@@ -1,0 +1,16 @@
+Main: RAW DATA
+
+smith 
+jones 
+buell 
+buell 
+smith 
+jones 
+buell 
+smith 
+jones 
+buell 
+jones 
+smith 
+
+Main: TALLY THE VOTES 

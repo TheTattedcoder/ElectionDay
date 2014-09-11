@@ -1,0 +1,36 @@
+Main: RAW DATA
+TallyVotes: Number of votes:    6
+TallyVotes: Number of candidates:    3
+
+TallyVotes: Vote data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: Candidate data:
+buell     0 isInContention=TRUE  isAWinner=FALSE
+jones     0 isInContention=TRUE  isAWinner=FALSE
+smith     0 isInContention=TRUE  isAWinner=FALSE
+
+Main: TALLY THE VOTES 
+TallyVotes: AFTER ROUND 0 THE RESULTS ARE 
+buell    10 isInContention=TRUE  isAWinner=FALSE
+jones    16 isInContention=TRUE  isAWinner=FALSE
+smith    10 isInContention=TRUE  isAWinner=FALSE
+
+TallyVotes: WE DO NOT HAVE A WINNER
+
+TallyVotes: ELIMINATE LOSERS: 
+TallyVotes: ELIMINATED THIS ROUND jones    16 isInContention=FALSE isAWinner=FALSE
+
+TallyVotes: AFTER ROUND 1 THE RESULTS ARE 
+buell     9 isInContention=TRUE  isAWinner=TRUE 
+jones     0 isInContention=FALSE isAWinner=FALSE
+smith     9 isInContention=TRUE  isAWinner=TRUE 
+
+TallyVotes: WE HAVE A WINNER
+
+Main: THE WINNER IS:
+buell     9 isInContention=TRUE  isAWinner=TRUE 
+smith     9 isInContention=TRUE  isAWinner=TRUE 
+
